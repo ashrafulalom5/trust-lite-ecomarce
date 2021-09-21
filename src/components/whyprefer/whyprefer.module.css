@@ -1,0 +1,21 @@
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #a65341;
+}
+.whyprefer {
+  background: #f3f0eb;
+}
+.middle_image {
+  padding: 10px 0px;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .middle_image {
+    padding: 10px 0px;
+    height: 300px;
+  }
+}

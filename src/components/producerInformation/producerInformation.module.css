@@ -1,0 +1,17 @@
+.profilePic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.personal_infoBox {
+  border-radius: 15px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.title {
+  align-items: center;
+  align-content: center;
+  display: -moz-inline-grid;
+  display: -ms-inline-grid;
+  display: inline-grid;
+}

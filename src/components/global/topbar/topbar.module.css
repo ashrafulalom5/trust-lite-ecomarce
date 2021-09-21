@@ -1,0 +1,23 @@
+.topbar {
+  background: #a65341;
+  color: #fff;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.topbar a {
+  margin-left: 10px;
+}
+.right {
+  float: right;
+}
+.right a {
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .topbar {
+    text-align: center !important;
+  }
+  .right {
+    float: none;
+  }
+}

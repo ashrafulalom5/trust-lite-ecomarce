@@ -1,0 +1,82 @@
+.cart_page p {
+  color: #6c757d;
+}
+.faDelete {
+  margin-left: 0px;
+}
+.img-fluid {
+  max-width: 72px;
+  max-height: 72px;
+}
+.btn_group {
+  display: flex;
+  border: 1px solid #666161;
+  background: white;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.input_group {
+  margin-left: auto;
+}
+.input_group input[type="number"] {
+  max-width: 3rem;
+}
+.faIcons {
+  cursor: pointer;
+  margin: 0px 5px;
+}
+.inputIcons {
+  width: 25px;
+  cursor: pointer;
+}
+.productTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+.cart_alert {
+  align-items: center;
+}
+
+.cart_alert svg {
+  margin-right: 10px;
+}
+.cart_alert p {
+  display: flex;
+}
+.cart_action {
+  align-items: center;
+}
+.cart-action p {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.productPrice {
+  font-weight: 700;
+  color: #000 !important;
+}
+.product_action_btn {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.product_action_btn svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.asText {
+  appearance: textfield;
+  max-width: 40px;
+  /height: 30px;
+  border: 1px solid black;
+  border-top: none !important;
+  border-bottom: none !important;
+  background: white !important;
+}
+.imageRadius {
+  border-radius: 15px;
+}
+.asText:focus {
+  border: 1px solid black;
+}

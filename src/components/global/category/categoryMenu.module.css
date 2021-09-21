@@ -1,0 +1,9 @@
+.menuNavbar {
+  background: #587542;
+}
+.categoryMenu .navbar {
+  padding: 0px !important;
+}
+.categoryMenu a {
+  color: #fff !important;
+}

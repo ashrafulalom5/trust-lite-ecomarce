@@ -1,0 +1,122 @@
+.sideNavOpen {
+  height: 100%;
+  width: 240px;
+  margin-top: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  overflow: scroll;
+  //font-size: 16px;
+  //padding-top: 40px;
+  background-color: #ffffff;
+  transition: 0.2s;
+  box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+}
+.sideNavClose {
+  transition: 0.2s;
+  height: 100%;
+  width: 0px;
+  margin-top: 60px;
+  position: fixed;
+  top: 0;
+  font-size: 20px;
+  left: 0;
+  z-index: 10;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+}
+.ContentOverlayOpen {
+  display: block;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ContentOverlayClose {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .sideList .logo {
+    height: 60px;
+    border-bottom: 1px solid wheat;
+  }
+  .sideList .logo img {
+    height: 60px;
+    padding: 5px 10px;
+  }
+  .sideList .logo .btn {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+  }
+  .sideList .nav-link {
+    color: #444;
+    border-bottom: 1px solid #5e456366;
+    font-size: 14px;
+    padding: 10px 0px 10px 10px;
+    font-weight: 500;
+  }
+}
+
+/* .wrapper {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  padding: 10px;
+  bottom: 300px;
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    position: fixed;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 0 auto;
+    background: white;
+    display: block;
+    color: black;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+  }
+} */
+.cart_length {
+  padding: 2px 6px 2px 2px;
+  font-weight: bold;
+  background: #f26f00;
+  border-radius: 5px;
+}
+i.fa.fa-search {
+  font-size: 18px;
+}
+input::placeholder {
+  color: #5e4563;
+  margin-bottom: 9px;
+  text-align: left;
+  font-size: 15px;
+}
+input.mobile_search_field {
+  min-width: 170px;
+  max-width: 50vw;
+  border: none;
+}
+@media (max-width: 368px) {
+  input.mobile_search_field {
+    min-width: 130px !important;
+    width: 130px !important;
+  }
+}
+.navbar-brand {
+  margin-right: 5px;
+}

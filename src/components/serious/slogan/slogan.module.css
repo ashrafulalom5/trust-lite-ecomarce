@@ -1,0 +1,8 @@
+.slogan h2 {
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+.serious-container .react-multi-carousel-track {
+  transition: none 0s ease !important;
+}

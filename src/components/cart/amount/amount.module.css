@@ -1,0 +1,10 @@
+.boxShadow {
+  /border-radius: 15px;
+  background: white;
+  margin-top: 80px;
+}
+@media (max-width: 640px) {
+  .boxShadow {
+    margin-top: 50px;
+  }
+}

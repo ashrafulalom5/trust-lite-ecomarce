@@ -1,0 +1,29 @@
+.serious {
+  background: url("../.././asset/image/serious.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  min-height: 570px;
+}
+.serious_container {
+  padding: 75px 0px;
+  text-align: center;
+}
+.changetext {
+  border-bottom: 2px solid #000;
+  width: auto;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 640px) {
+  .serious {
+    min-height: 200px;
+    height: 200px;
+  }
+}
